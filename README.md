@@ -44,3 +44,18 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## Комментарий разработчика
+
+В лк разработчика в Яндекс у меня стоит путь для редиректа localhost:3000,так что необходимо запускать проект на localhost:3000 для нормальной работы приложения.
+
+Чтоб у вас получилось загрузить файл на ваш Яндекс.Диск нужно будет выполнить несколько шагов:
+
+1. Нажать кнопку "Авторизация Яндекс" и дать доступы приложению
+2. Выбрать файл(ы).
+3. Нажать загрузить
+4. Немного подождать
+5. Profit!
+
+все запросы прописаны в файле src/utils/requests.ts
+вспомогательные функции в файле src/utils/helper.ts
